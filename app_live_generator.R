@@ -1,4 +1,7 @@
 
+#devtools::install_github("posit-dev/r-shinylive")
+
+
 library(shinylive)
 ## the cars folder contains last weeks shiny app (bit.ly/TidyX_Ep160)
 ## Convert your shiny app into all the assets for running the app 
@@ -15,3 +18,10 @@ httpuv::runStaticServer(
   dir = "docs", 
   port = 8888
 )
+
+# 
+# library(plumber)
+# 
+# pr() %>%
+#   pr_static("/", "docs/") %>%
+#   pr_run()
