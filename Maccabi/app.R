@@ -29,7 +29,7 @@ library(collapsibleTree)
 library(lubridate)
 library(fresh)
 
-setwd("C:/Users/tomhaber/OneDrive - Intel Corporation/Desktop/Maccabi")
+#setwd("C:/Users/tomhaber/OneDrive - Intel Corporation/Desktop/Maccabi")
 
 load("All_Games_Tables_Maccabi.RData")
 
